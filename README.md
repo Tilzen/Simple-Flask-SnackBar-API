@@ -9,23 +9,16 @@ Um API simples de lanchonete com Flask.
 - marshmallow-sqlalchemy
 
 ## Como Executar este Projeto
-´´´sh
 
 	 export FLASK_APP=app
-
 	 export FLASK_ENV=Development
-
 	 export FLASK_DEBUG=True
-
 	 flask run
-´´´
+
 
 ## Como Realizar as Migrações
-´´´sh
+	
+	flask db init
+	flask db migrate
+	flask upgrade
 
-	 flask db init
-
-	 flask db migrate
-
-	 flask upgrade
-´´´
