@@ -10,15 +10,14 @@ Um API simples de lanchonete com Flask.
 
 ## Como Executar este Projeto
 
-	 export FLASK_APP=app
-	 export FLASK_ENV=Development
-	 export FLASK_DEBUG=True
-	 flask run
+	 ~$ export FLASK_APP=app
+	 ~$ export FLASK_ENV=Development
+	 ~$ export FLASK_DEBUG=True
+	 ~$ flask run
 
 
 ## Como Realizar as Migrações
 	
-	flask db init
-	flask db migrate
-	flask upgrade
-
+	~$ flask db init
+	~$ flask db migrate
+	~$ flask upgrade
