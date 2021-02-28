@@ -1,5 +1,5 @@
 # Simple Snack Bar API
-Um API simples de lanchonete com Flask.
+Uma API simples de lanchonete com Flask.
 
 ## Experiência com um CRUD usando Flask e suas Ferramentas
 - flask
